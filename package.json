@@ -1,0 +1,21 @@
+{
+  "name": "3-bases-node",
+  "version": "0.0.1",
+  "description": "This is a simple multiplication table that is printer into a text file",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "base2": "node app --base=2",
+    "base3": "node app --base=3",
+    "base5": "node app --base=5"
+  },
+  "author": "Sergio Lemus",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "colors": "^1.0.0",
+    "yargs": "^17.7.2"
+  }
+}
